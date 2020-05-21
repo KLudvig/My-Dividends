@@ -1,7 +1,7 @@
 # My-Dividends
 Stock dividend tracker built with React, Node and MongoDB. Using Alpha Vantage API. Save and edit your portfolio and let the tracker reveal how much you earn per year, month, day and hour. 
 
-Note that the free api key from Alpha Vantage has limited API requests per minute. So if you get an error it is because of this. 
+Note that the free api key from Alpha Vantage has limited API requests per minute. So if you get an error when fetching stocks it is because of this. 
 
 # Install
 First, install all dependencies.
