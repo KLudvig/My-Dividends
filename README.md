@@ -20,15 +20,13 @@ API_KEY=YOUR_API_KEY
 ```
 
 # Run
-Start the server:
-Open up the terminal, start the server by typing:
+First start the server. Open up the terminal, then type in:
 ```
-Nodemon server.js
+nodemon server.js
 ```
 
 
-Start React:
-Open up a new terminal window. Go to the client folder:
+Then start React. Open up a new terminal window. Go to the client folder:
 ```
 cd client
 ```
