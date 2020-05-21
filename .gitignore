@@ -1,0 +1,6 @@
+# Ignore
+/node_modules
+/client/node_modules
+.DS_Store
+.env
+.vscode
