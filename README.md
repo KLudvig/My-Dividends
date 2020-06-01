@@ -4,22 +4,26 @@ Stock dividend tracker built with React, Node and MongoDB. Using Alpha Vantage A
 Note that the free api key from Alpha Vantage has limited API requests per minute. So if you get an error when fetching stocks it is because of this. 
 
 # Install
-First, install all dependencies.
+First, install all dependencies. There are two package.json files, one for Frontend and one for Backend.
+
+Install Backend dependencies:
 ``` 
 yarn install
 ```
 
-
-Then, in the server.js file, change line 14 to your MongoDB database name:
+Install Frontend dependencies in the client folder:
+``` 
+cd client
+yarn install
 ```
-const url = 'mongodb://127.0.0.1:27017/stocks'
-```
 
-
-Lastly, add your API key in the .env_sample file, and rename the file to .env
+Lastly, add your API key and your database in the .env_sample file, and rename the file to .env
 ```
 API_KEY=YOUR_API_KEY
+MONGO_DB='YOUR_DATABASE_HERE'
 ```
+Database example: 'mongodb://127.0.0.1:27017/stocks'
+
 You can get your API key from https://www.alphavantage.co/
 
 
@@ -30,12 +34,8 @@ nodemon server.js
 ```
 
 
-Then start React. Open up a new terminal window. Go to the client folder:
+Then start React. Open up a new terminal window. Go to the client folder and then start:
 ```
 cd client
-```
-
-Then start React:
-```
 yarn start
 ```
