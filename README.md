@@ -28,6 +28,8 @@ You can get your API key from https://www.alphavantage.co/
 
 
 # Run
+Make sure MongoDB is running.
+
 First start the server. Open up the terminal, then type in:
 ```
 nodemon server.js
